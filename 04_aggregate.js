@@ -1,4 +1,4 @@
-use shop
+
 db.dropDatabase()
 
 db.customers.insertMany([
