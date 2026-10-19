@@ -1,16 +1,16 @@
-use library
+// use library
 
-//Q.1
-db.books.insertMany([{ title: "A", price: 10, inStock: true, addOn: Date.now() }, { title: "B", price: 20, inStock: false, addOn: Date.now() }, { title: "C", price: 30, inStock: true, addOn: Date.now() }])
+// //Q.1
+// db.books.insertMany([{ title: "A", price: 10, inStock: true, addOn: Date.now() }, { title: "B", price: 20, inStock: false, addOn: Date.now() }, { title: "C", price: 30, inStock: true, addOn: Date.now() }])
 
-//Q.2
-db.books.insertMany([{ _id: 1, name: "A" }, { _id: 2, name: "B" }, { _id: 2, name: "C" }, { _id: 3, name: "D" }], { ordered: false })
+// //Q.2
+// db.books.insertMany([{ _id: 1, name: "A" }, { _id: 2, name: "B" }, { _id: 2, name: "C" }, { _id: 3, name: "D" }], { ordered: false })
 
-//Q.3 
-it gives an error, safer version is user.phone?.length, it checks if phone exists then proceeds else it returns undefined
+// //Q.3 
+// it gives an error, safer version is user.phone?.length, it checks if phone exists then proceeds else it returns undefined
 
 // mega challenge
-use college_app;
+// use college_app;
 
 db.students.insertMany([
     {

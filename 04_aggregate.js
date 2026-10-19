@@ -45,3 +45,9 @@ db.orders.insertMany([
         items: [{ product: "Notebook", category: "stationery", qty: 1, price: 50 }]
     }
 ])
+
+
+1.({ price: { $gte: 100, $lte: 500 } }, { category: { $in: ["tech", "fiction"] } })
+2.({ createdAt: { $gt: "2026-10-05" } })
+3.()
+4. 
